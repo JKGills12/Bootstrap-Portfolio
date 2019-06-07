@@ -1,4 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/60.-Zircon.jpg);
+    background-size: cover;
+    font-size: 16px;
+    line-height:32px;
+    width:960px;
+    margin-left:225px;
+    margin:0 auto;
+}
+
+.nav-tabs{
+    float:right;
+}
+
+.jumbotron{
+    background-image: url(../images/60.-Zircon.jpg);
+    background-size: 400%;
+    text-align: center;
+}
+
+
+.carousel-inner img{
+    margin: auto;
+} 
+
+.container {
+    text-align: center;
+}
+
 /* if and when condition is true - whatever btwn {} it will be applied to page - these rules take effect when the browser's width is either 768px or less*/
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+     ... }
+
+// Medium devices (tablets, 768px and up)
 @media screen and (max-width: 768px) {
     body{
         background-color:#333;
@@ -7,3 +46,10 @@
         width: 600px;
     }
 }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media screen and (max-width: 576px) {
+     h }
