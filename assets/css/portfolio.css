@@ -23,7 +23,10 @@ body{
 
 .container{
     text-align: center;
+    margin: 0 auto;
 }
+
+
 
 /* if and when condition is true - whatever btwn {} it will be applied to page - these rules take effect when the browser's width is either 768px or less*/
 // Large devices (desktops, 992px and up)
